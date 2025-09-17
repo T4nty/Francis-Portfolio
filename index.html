@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Francis | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">
+        <i class="fa-solid fa-a">JR</i>
+      </div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">
+        <i class="fa-solid fa-a">JR</i>
+    </div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#education" onclick="toggleMenu()">Education</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/2x2 Off White.png" alt="Francis's Profile Picture" class="mainpic"/>
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Francis Jr E. De Guzman</h1>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/De Guzman, Francis Jr. Eramela Resume.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/facebook.png"
+            alt="Facebook profile"
+            class="icon-link"
+            onclick="location.href='https://www.facebook.com/francis.deguzman.5099'"
+          />
+          <img
+            src="./assets/instagram.png"
+            alt="Instagram profile"
+            class="icon-link"
+            onclick="location.href='https://www.instagram.com/okayt4nty/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="Instagram profile"
+            class="icon-link"
+            onclick="location.href='https://github.com//T4nty'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img src="./assets/archive.png" alt="Personal Info icon" class="icon">
+                        <h2 class="personal-info">Personal Informations</h2>
+              <div class="article-container">
+                <article>
+                    <h4>Birthday:</h4>
+                    <div>
+                        <p>June 15, 2002</p>
+                    </div>
+                </article>
+                <article>
+                    <h4>Address:</h4>
+                    <div>
+                        <p>#30 Rosete St. Mabayuan Olongapo City</p>
+                    </div>
+                </article>
+                <article>
+                    <h4>Civil Status:</h4>
+                    <div>
+                        <p>Single</p>
+                    </div>
+                </article>
+                <article>
+                    <h4>Relgion:</h4>
+                    <div>
+                        <p>Roman Catholic</p>
+                    </div>
+                </article>
+            </div>
+            </div>
+            <div class="details-container">
+            <img src="./assets/hobbies.png" alt="Hobbies icon" class="icon">
+              <h2 class="personal-info">Hobbies</h2>
+            <div class="article-container">
+              <article class="article2">
+                  <img src="./assets/checkmark.png" alt="checkmark icon" class="icon">
+                  <div>
+                      <p>Programming</p>
+                  </div>
+              </article>
+              <article class="article2">
+                  <img src="./assets/checkmark.png" alt="checkmark icon" class="icon">
+                  <div>
+                      <p>Listening to music</p>
+                  </div>
+              </article >
+              <article class="article2">
+                <img src="./assets/checkmark.png" alt="checkmark icon" class="icon">
+                <div>
+                    <p>Playing Guitar</p>
+                </div>
+            </article>
+              <article class="article2">
+                  <img src="./assets/checkmark.png" alt="checkmark icon" class="icon">
+                  <div>
+                      <p>Playing Mobile and PC games</p>
+                  </div>
+              </article>
+              </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#education'"
+      />
+    </section>
+
+    <section id="education">
+      <p class="section__text__p1">Here is My</p>
+      <h1 class="title">Education</h1>
+      <div class="section-container">
+      <div class="education-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+              <h2 class="education-sub-title">Higher Education</h2>
+              <div class="article-container">
+                <article>
+                  <div class="educ-details">
+                    <h3>St. Benilde Center for Global Competence Inc.</h3>
+                    <p>Bachelor of Science in Information Technology</p>
+                  </div>
+                </article>
+              </div>
+          </div>
+          <div class="details-container">
+              <h2 class="education-sub-title">Secondary Education</h2>
+              <div class="article-container">
+                <article>
+                  <div class="educ-details">
+                    <h3>Olongapo City National High SchooL</h3>
+                  </div>
+                </article>
+              </div>
+          </div>
+          <div class="details-container">
+              <h2 class="education-sub-title">Primary Education</h2>
+              <div class="article-container">
+                <article>
+                  <div class="educ-details">
+                    <h3>Mabayuan Elementary School</h3>
+                  </div>
+                </article>
+              </div>
+          </div>
+        </div>
+        <div class="text-container">
+          <p>Through my academic projects and internships, I have gained solid skills in web development. I’m deeply passionate about coding and problem-solving, with a strong capacity to learn quickly and adapt well in dynamic environments.</p>
+        </div>
+      </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="section-container">
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="./assets/coding.png" alt="Web Developer icon" class="icon">
+            <h2 class="experience-sub-title">Web Developer (OJT)</h2>
+            <p>4 Months</p>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML, CSS, PHP and JavaScript</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Responsive Web Design</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Basic Frontend Frameworks (Bootstrap)</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>WordPress Development</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <img src="./assets/coding.png" alt="Programmer icon" class="icon">
+            <h2 class="experience-sub-title">SPC Engineer / Programmer</h2>
+            <p class="years">March 5, 2025 to Present</p>
+            <div class="article-container">
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>React & Node.js</h3>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>TypeScript Backend</h3>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Tailwind CSS</h3>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Business Web App</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon-link" onclick="location.href=
+            'https://www.linkedin.com/in/francis-e-de-guzman-jr-2aa465333/'"
+          />
+          <p><a href="https://www.linkedin.com/in/francis-e-de-guzman-jr-2aa465333/"
+          >LinkedIn</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p class="highlight">eramelaf@gmail.com</p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/mobile.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p class="highlight">0998 456 1722</p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2025 Francis Jr E. De Guzman. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
