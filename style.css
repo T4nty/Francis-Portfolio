@@ -404,6 +404,7 @@ border: rgb(53, 53, 53) 0.1rem solid;
   position: absolute;
   right: -5rem;
   bottom: 2.5rem;
+  cursor: pointer;
 }
 
 .details-container {
